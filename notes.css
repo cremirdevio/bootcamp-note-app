@@ -30,6 +30,7 @@ section.body {
 
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 aside {
@@ -150,4 +151,22 @@ textarea.note_content {
 
 .note_icon:hover {
   cursor: pointer;
+}
+
+/* Starter Div */
+.starter {
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnPrimary {
+  background-color: var(--primary);
 }
