@@ -11,7 +11,7 @@
 
 // Data
 // Stores the note object
-let notes = [{}];
+let notes = [];
 
 let currentTitle = "";
 let currentContent = "";
